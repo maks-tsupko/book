@@ -2,8 +2,8 @@ import java.util.Objects;
 
 public class Author {
 
-    private final String firstName;
-    private final String lastName;
+    private String firstName;
+    private String lastName;
 
     public Author() {}
 

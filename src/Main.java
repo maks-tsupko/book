@@ -14,6 +14,16 @@ public class Main {
 
         book1.setYearPublication(1900);
         System.out.println(book1.toString());
+
+        System.out.println("Александр Грибоедов " + " hashCode = " + author1.hashCode());
+        System.out.println("Иван Тургенев " + " hashCode = " +  author2.hashCode());
+
+        System.out.println("Горе от ума " + " hashCode = " + book1.hashCode());
+        System.out.println("Отцы и дети " + " hashCode = " + book2.hashCode());
+
+        System.out.println("Сравнение авторов : " + author1.equals(author2) + " (авторы не равны)");
+        System.out.println("Сравнение книг : " + book1.equals(book2) + " (книги не равны)");
+
     }
 
 }
